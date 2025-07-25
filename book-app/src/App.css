@@ -1,0 +1,47 @@
+body {
+  background-color: #8c92eb;
+}
+
+h1 {
+  color: #d2e052;
+  font-weight: 700;
+  text-shadow: 4px 4px 4px rgba(170, 216, 42, 0.3);
+}
+
+form input:focus {
+  border-color: #3f94cc;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.btn-success:hover {
+  background-color: #33b368;
+  border-color: #39a365;
+}
+
+
+.btn-primary:hover {
+  background-color: #6db1df;
+  border-color: #2980b9;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ac9c9c;
+}
+
+
+@media (max-width: 768px) {
+  .table {
+    
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    background-color: #33b34f;
+    font-size: 0.8rem;
+  }
+
+
+
+}
